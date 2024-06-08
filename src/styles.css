@@ -1,0 +1,242 @@
+/*# sourceMappingURL=styles.css.map */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.outfit {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+body {
+    margin: 0%;
+    padding: 0;
+    background-color: black;
+    color: #FFFFFF;
+    font-family: Outfit;
+    max-width: 1600px;
+    text-align: center;
+    height: 600vh;
+    margin: auto;
+
+
+    header {
+        .aigen {
+            letter-spacing: 0.5em;
+        }
+    }
+
+    section.homepage {
+
+
+
+        div {
+            text-align: left;
+
+            h1 {
+                font-family: Outfit;
+                font-size: 48px;
+                font-weight: 500;
+                line-height: 59px;
+                text-align: left;
+
+
+            }
+
+            p {
+                font-family: Outfit;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 40px;
+                text-align: left;
+
+            }
+
+
+            .styledbtn {
+                font-family: Outfit;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: left;
+            }
+        }
+
+
+
+    }
+
+    section.text-on-img {
+        div {
+            .image-container:nth-child(odd) {
+                margin-top: 63px;
+            }
+
+        }
+
+        div {
+            h1 {
+                font-family: Outfit;
+                font-size: 48px;
+                font-weight: 400;
+                line-height: 64px;
+                text-align: center;
+            }
+
+        }
+
+    }
+
+
+    section.avatar {
+        div {
+
+            h1 {
+
+                font-family: Outfit;
+                font-size: 64px;
+                font-weight: 600;
+                line-height: 64px;
+                text-align: left;
+            }
+
+
+        }
+
+    }
+
+}
+
+
+.border-grey {
+    border-color: #808080;
+}
+
+
+
+.styledbtn {
+
+    background: linear-gradient(180deg, #FA75F8 0%, #9E6EE5 100%);
+}
+
+.purple-bg {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(158, 110, 230, 0.28) 50%, rgba(158, 110, 230, 0) 100%);
+}
+
+span {
+    background: linear-gradient(90deg, #FACC69 0%, #FF91A5 100%);
+    color: transparent;
+    background-clip: text;
+
+}
+
+
+h2 {
+    font-family: Outfit;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+@keyframes colorChangeH2_1 {
+
+    0%,
+    19.99% {
+        color: rgba(255, 255, 255, 0.3);
+    }
+
+    20%,
+    39.99% {
+        color: transparent;
+        background: linear-gradient(90deg, #5CC3FA 0%, #9E6EE6 100%);
+        background-clip: text;
+    }
+
+    40%,
+    100% {
+        color: rgba(255, 255, 255, 0.3);
+    }
+}
+
+@keyframes colorChangeH2_2 {
+
+    0%,
+    39.99% {
+        color: rgba(255, 255, 255, 0.3);
+    }
+
+    40%,
+    59.99% {
+        color: transparent;
+        background: linear-gradient(90deg, #5CC3FA 0%, #9E6EE6 100%);
+        background-clip: text;
+    }
+
+    60%,
+    100% {
+        color: rgba(255, 255, 255, 0.3);
+    }
+}
+
+@keyframes colorChangeH2_3 {
+
+    0%,
+    59.99% {
+        color: rgba(255, 255, 255, 0.3);
+    }
+
+    60%,
+    79.99% {
+        color: transparent;
+        background: linear-gradient(90deg, #5CC3FA 0%, #9E6EE6 100%);
+        background-clip: text;
+    }
+
+    80%,
+    100% {
+        color: rgba(255, 255, 255, 0.3);
+    }
+}
+
+@keyframes colorChangeH2_4 {
+
+    0%,
+    79.99% {
+        color: rgba(255, 255, 255, 0.3);
+    }
+
+    80%,
+    99.99% {
+        color: transparent;
+        background: linear-gradient(90deg, #5CC3FA 0%, #9E6EE6 100%);
+        background-clip: text;
+    }
+
+    100%,
+    0% {
+        color: rgba(255, 255, 255, 0.3);
+    }
+}
+
+h2:nth-of-type(1) {
+    animation: colorChangeH2_1 10s ease-in-out infinite;
+}
+
+h2:nth-of-type(2) {
+    animation: colorChangeH2_2 10s ease-in-out infinite;
+}
+
+h2:nth-of-type(3) {
+    animation: colorChangeH2_3 10s ease-in-out infinite;
+}
+
+h2:nth-of-type(4) {
+    animation: colorChangeH2_4 10s ease-in-out infinite;
+}
+
+
