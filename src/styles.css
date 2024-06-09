@@ -9,10 +9,14 @@ body {
     background-color: black;
     color: #FFFFFF;
     max-width: 1600px;
-    text-align: center;
-    height: 1600vh;
-    margin: auto;
 }
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
 
 .outfit {
     font-family: "Outfit", sans-serif;
@@ -353,4 +357,23 @@ background: linear-gradient(180deg, rgba(255, 255, 255, 0.14) 0%, rgba(153, 56, 
 
 .large-container{
     background: rgba(255, 255, 255, 0.08);
+}
+
+
+
+/* ------------------------------------- TOKENOMICS --------------------------------- */
+
+h1{
+    background: linear-gradient(90deg, #FA75F8 0%, #9E6EE6 100%);    
+    color: transparent;
+    background-clip: text;
+}
+p.inter{
+
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 16px;
+text-align: left;
+
 }

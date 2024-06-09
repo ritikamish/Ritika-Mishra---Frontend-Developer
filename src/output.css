@@ -640,6 +640,10 @@ video {
   margin-bottom: 5rem;
 }
 
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
 .mb-95 {
   margin-bottom: 95px;
 }
@@ -660,6 +664,10 @@ video {
   margin-left: 11rem;
 }
 
+.ml-52 {
+  margin-left: 13rem;
+}
+
 .mr-12 {
   margin-right: 3rem;
 }
@@ -670,10 +678,6 @@ video {
 
 .mt-12 {
   margin-top: 3rem;
-}
-
-.mt-152 {
-  margin-top: 152px;
 }
 
 .mt-16 {
@@ -696,8 +700,16 @@ video {
   display: flex;
 }
 
+.table {
+  display: table;
+}
+
 .h-12 {
   height: 3rem;
+}
+
+.h-16 {
+  height: 4rem;
 }
 
 .h-screen {
@@ -710,6 +722,10 @@ video {
 
 .w-3\/4 {
   width: 75%;
+}
+
+.w-6 {
+  width: 1.5rem;
 }
 
 .w-80 {
@@ -734,6 +750,10 @@ video {
   flex-grow: 1;
 }
 
+.table-auto {
+  table-layout: auto;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -752,6 +772,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
 }
 
 .gap-2 {
@@ -784,6 +808,18 @@ video {
   border-bottom-width: 1px;
 }
 
+.border-l {
+  border-left-width: 1px;
+}
+
+.border-r {
+  border-right-width: 1px;
+}
+
+.border-t {
+  border-top-width: 1px;
+}
+
 .border-neutral-800 {
   --tw-border-opacity: 1;
   border-color: rgb(38 38 38 / var(--tw-border-opacity));
@@ -794,9 +830,29 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-blue-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+}
+
 .bg-gray-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
+.bg-orange-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
+}
+
+.bg-purple-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(126 34 206 / var(--tw-bg-opacity));
+}
+
+.bg-red-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-20 {
@@ -805,6 +861,10 @@ video {
 
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-16 {
@@ -862,6 +922,11 @@ video {
   padding-bottom: 1rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .pb-12 {
   padding-bottom: 3rem;
 }
@@ -872,6 +937,10 @@ video {
 
 .pb-32 {
   padding-bottom: 8rem;
+}
+
+.pl-8 {
+  padding-left: 2rem;
 }
 
 .pt-10 {
@@ -894,6 +963,11 @@ video {
   text-align: center;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -902,6 +976,11 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-base {
@@ -927,8 +1006,16 @@ video {
   font-weight: 400;
 }
 
+.font-semibold {
+  font-weight: 600;
+}
+
 .leading-10 {
   line-height: 2.5rem;
+}
+
+.leading-4 {
+  line-height: 1rem;
 }
 
 .leading-6 {
@@ -950,9 +1037,14 @@ body {
   background-color: black;
   color: #FFFFFF;
   max-width: 1600px;
-  text-align: center;
-  height: 1600vh;
-  margin: auto;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+      "slnt" 0;
 }
 
 .outfit {
@@ -1251,4 +1343,27 @@ section.image-grid>div>div{
 
 .large-container{
   background: rgba(255, 255, 255, 0.08);
+}
+
+/* ------------------------------------- TOKENOMICS --------------------------------- */
+
+h1{
+  background: linear-gradient(90deg, #FA75F8 0%, #9E6EE6 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+p.inter{
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .md\:table-fixed {
+    table-layout: fixed;
+  }
 }
