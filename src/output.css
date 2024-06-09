@@ -897,12 +897,12 @@ video {
   padding: 152px;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
 .p-169 {
   padding: 169.5;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-16 {
@@ -979,6 +979,10 @@ video {
   padding-bottom: 3rem;
 }
 
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -999,20 +1003,12 @@ video {
   padding-top: 2.5rem;
 }
 
-.pt-169 {
-  padding-top: 169.5;
-}
-
 .pt-3 {
   padding-top: 0.75rem;
 }
 
 .pt-8 {
   padding-top: 2rem;
-}
-
-.pb-16 {
-  padding-bottom: 4rem;
 }
 
 .text-left {
@@ -1137,10 +1133,8 @@ span {
           background-clip: text;
 }
 
-header {
-  .aigen {
-    letter-spacing: 0.5em;
-  }
+.aigen {
+  letter-spacing: 0.5em;
 }
 
 section.homepage {
