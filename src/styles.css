@@ -10,13 +10,14 @@ body {
     color: #FFFFFF;
     max-width: 1600px;
 }
+
 .inter {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings:
-      "slnt" 0;
-  }
+        "slnt" 0;
+}
 
 .outfit {
     font-family: "Outfit", sans-serif;
@@ -319,9 +320,10 @@ section.avatar>div>h2:nth-of-type(4) {
 /* -----------------------------------Grid Section---------------------- */
 
 .red-shoe {
-    height: 40vh;
-object-fit: contain;
-    left: 94.43px;
+    /* height: 40vh; */
+    object-fit: contain;
+    top:175.82px;
+    right:35px;
     transform-origin: center;
     transform: rotate(-6.79deg);
 }
@@ -330,50 +332,65 @@ object-fit: contain;
     background: #FF9999;
     width: 463px;
     height: 208px;
-    top: 150.91px;
-    left: 31.5px;
+   
     gap: 0px;
-    
+
     border-radius: 18px 18px 0px 0px;
     /* opacity: 0px; */
 
 }
 
 
-section.image-grid>div>div>div>p{
+section.image-grid>div>div>div>p {
     font-family: Outfit;
-font-size: 36px;
-font-weight: 400;
-line-height: 48px;
-text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: center;
 
 
 }
-section.image-grid>div>div{
-border-radius: 24px;
-background: linear-gradient(180deg, rgba(255, 255, 255, 0.14) 0%, rgba(153, 56, 67, 0.25) 100%);
+
+section.image-grid>div>div {
+    border-radius: 24px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.14) 0%, rgba(153, 56, 67, 0.25) 100%);
 }
 
 
-.large-container{
+.large-container {
     background: rgba(255, 255, 255, 0.08);
 }
 
 
 
-/* ------------------------------------- TOKENOMICS --------------------------------- */
+/* ------------------- TOKENOMICS  + ROADMAP  --------------------------------- */
 
-h1{
-    background: linear-gradient(90deg, #FA75F8 0%, #9E6EE6 100%);    
+.tokenomics>h1,
+.roadmap>h1 {
+    background: linear-gradient(90deg, #FA75F8 0%, #9E6EE6 100%);
     color: transparent;
     background-clip: text;
 }
-p.inter{
+
+
+/*------------------------------------- ROADMAP--------------------- */
+p.inter {
 
     font-family: Inter;
     font-size: 22px;
     font-weight: 600;
     line-height: 16px;
-text-align: left;
+    text-align: left;
+}
 
+.styledText {
+    background: linear-gradient(90deg, #FACC69 0%, #FA75F8 100%);
+    color: transparent;
+    background-clip: text;
+}
+
+.roadmap {
+    li {
+        list-style: circle;
+    }
 }

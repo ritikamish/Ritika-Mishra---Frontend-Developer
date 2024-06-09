@@ -618,10 +618,6 @@ video {
   top: 0.75rem;
 }
 
-.top-48 {
-  top: 12rem;
-}
-
 .z-10 {
   z-index: 10;
 }
@@ -668,6 +664,10 @@ video {
   margin-left: 13rem;
 }
 
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
 .mr-12 {
   margin-right: 3rem;
 }
@@ -686,6 +686,10 @@ video {
 
 .mt-24 {
   margin-top: 6rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .mt-6 {
@@ -710,6 +714,11 @@ video {
 
 .h-16 {
   height: 4rem;
+}
+
+.h-min {
+  height: -moz-min-content;
+  height: min-content;
 }
 
 .h-screen {
@@ -772,6 +781,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
 }
 
 .justify-evenly {
@@ -939,6 +952,10 @@ video {
   padding-bottom: 8rem;
 }
 
+.pb-48 {
+  padding-bottom: 12rem;
+}
+
 .pl-8 {
   padding-left: 2rem;
 }
@@ -1022,6 +1039,10 @@ video {
   line-height: 1.5rem;
 }
 
+.leading-8 {
+  line-height: 2rem;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1044,7 +1065,7 @@ body {
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
-      "slnt" 0;
+        "slnt" 0;
 }
 
 .outfit {
@@ -1309,10 +1330,11 @@ section.avatar>div>h2:nth-of-type(4) {
 /* -----------------------------------Grid Section---------------------- */
 
 .red-shoe {
-  height: 40vh;
+  /* height: 40vh; */
   -o-object-fit: contain;
      object-fit: contain;
-  left: 94.43px;
+  top:175.82px;
+  right:35px;
   transform-origin: center;
   transform: rotate(-6.79deg);
 }
@@ -1321,14 +1343,12 @@ section.avatar>div>h2:nth-of-type(4) {
   background: #FF9999;
   width: 463px;
   height: 208px;
-  top: 150.91px;
-  left: 31.5px;
   gap: 0px;
   border-radius: 18px 18px 0px 0px;
   /* opacity: 0px; */
 }
 
-section.image-grid>div>div>div>p{
+section.image-grid>div>div>div>p {
   font-family: Outfit;
   font-size: 36px;
   font-weight: 400;
@@ -1336,30 +1356,46 @@ section.image-grid>div>div>div>p{
   text-align: center;
 }
 
-section.image-grid>div>div{
+section.image-grid>div>div {
   border-radius: 24px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.14) 0%, rgba(153, 56, 67, 0.25) 100%);
 }
 
-.large-container{
+.large-container {
   background: rgba(255, 255, 255, 0.08);
 }
 
-/* ------------------------------------- TOKENOMICS --------------------------------- */
+/* ------------------- TOKENOMICS  + ROADMAP  --------------------------------- */
 
-h1{
+.tokenomics>h1,
+.roadmap>h1 {
   background: linear-gradient(90deg, #FA75F8 0%, #9E6EE6 100%);
   color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
 }
 
-p.inter{
+/*------------------------------------- ROADMAP--------------------- */
+
+p.inter {
   font-family: Inter;
   font-size: 22px;
   font-weight: 600;
   line-height: 16px;
   text-align: left;
+}
+
+.styledText {
+  background: linear-gradient(90deg, #FACC69 0%, #FA75F8 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+.roadmap {
+  li {
+    list-style: circle;
+  }
 }
 
 @media (min-width: 768px) {
