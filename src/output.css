@@ -680,6 +680,10 @@ video {
   margin-top: 3rem;
 }
 
+.mt-152 {
+  margin-top: 152px;
+}
+
 .mt-16 {
   margin-top: 4rem;
 }
@@ -725,6 +729,10 @@ video {
   height: 100vh;
 }
 
+.w-11\/12 {
+  width: 91.666667%;
+}
+
 .w-2\/4 {
   width: 50%;
 }
@@ -767,8 +775,8 @@ video {
   flex-direction: column;
 }
 
-.flex-nowrap {
-  flex-wrap: nowrap;
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -793,6 +801,11 @@ video {
 
 .gap-2 {
   gap: 0.5rem;
+}
+
+.gap-x-12 {
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
 }
 
 .gap-x-6 {
@@ -868,6 +881,10 @@ video {
   background-color: rgb(185 28 28 / var(--tw-bg-opacity));
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
 .bg-opacity-20 {
   --tw-bg-opacity: 0.2;
 }
@@ -876,8 +893,16 @@ video {
   --tw-bg-opacity: 0.5;
 }
 
+.p-152 {
+  padding: 152px;
+}
+
 .p-4 {
   padding: 1rem;
+}
+
+.p-169 {
+  padding: 169.5;
 }
 
 .px-16 {
@@ -903,6 +928,11 @@ video {
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.px-9 {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
 }
 
 .py-1 {
@@ -935,6 +965,11 @@ video {
   padding-bottom: 1rem;
 }
 
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -964,12 +999,20 @@ video {
   padding-top: 2.5rem;
 }
 
+.pt-169 {
+  padding-top: 169.5;
+}
+
 .pt-3 {
   padding-top: 0.75rem;
 }
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
 }
 
 .text-left {
@@ -1406,10 +1449,42 @@ p.inter {
           background-clip: text;
 }
 
+.phase3-container{
+  background: radial-gradient(70% 50% at 50% 50%, rgba(158, 110, 230, 0.28) 0%, rgba(158, 110, 230, 0) 100%);
+}
+
 .roadmap {
   li {
     list-style: circle;
   }
+}
+
+.roadmap-container{
+  background: radial-gradient(50% 50% at 50% 50%, rgba(92, 195, 250, 0.28) 0%, rgba(92, 195, 250, 0) 100%);
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.bg-getstarted{
+  background: linear-gradient(180deg, #FA75F8 0%, #876ED4 100%);
+}
+
+.black-bg{
+  background: radial-gradient(50% 50% at 50% 50%, rgba(92, 195, 250, 0.28) 0%, rgba(92, 195, 250, 0) 100%);
+}
+
+.footer-container{
+  background: radial-gradient(50% 50% at 50% 50%, rgba(92, 195, 250, 0.28) 0%, rgba(92, 195, 250, 0) 100%);
+}
+
+.image-container:nth-child(odd) {
+  margin-top: 63px;
 }
 
 @media (min-width: 768px) {

@@ -402,8 +402,56 @@ p.inter {
     background-clip: text;
 }
 
+
+.phase3-container{
+    background: radial-gradient(70% 50% at 50% 50%, rgba(158, 110, 230, 0.28) 0%, rgba(158, 110, 230, 0) 100%);
+}
 .roadmap {
     li {
         list-style: circle;
     }
+}
+
+.roadmap-container{
+    background: radial-gradient(50% 50% at 50% 50%, rgba(92, 195, 250, 0.28) 0%, rgba(92, 195, 250, 0) 100%);
+
+}
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+.bg-getstarted{
+    background: linear-gradient(180deg, #FA75F8 0%, #876ED4 100%);
+
+}
+
+.black-bg{
+    background: radial-gradient(50% 50% at 50% 50%, rgba(92, 195, 250, 0.28) 0%, rgba(92, 195, 250, 0) 100%);
+
+}
+
+
+.footer-container{
+background: radial-gradient(50% 50% at 50% 50%, rgba(92, 195, 250, 0.28) 0%, rgba(92, 195, 250, 0) 100%);
+
+}
+
+
+
+
+
+
+
+
+
+.image-container:nth-child(odd) {
+    margin-top: 63px;
 }
